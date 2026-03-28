@@ -242,3 +242,20 @@
 2026-03-28 15:49:26 - 备份文件已创建: C:\Users\Administrator\openclaw-backups\2026-03-28T15-49-26.870Z-openclaw-config-backup.tar.gz (0.01 MB)
 2026-03-28 15:49:26 - 推送到 GitHub...
 2026-03-28 15:50:28 - 备份和推送完成。
+2026-03-28 16:13:15 - 开始手动备份（仅关键配置）...
+2026-03-28 16:13:15 -   已复制: openclaw.json
+2026-03-28 16:13:15 -   已复制: config.json
+2026-03-28 16:13:15 -   已复制: config.yaml
+2026-03-28 16:13:15 -   已复制: identity
+2026-03-28 16:13:15 -   已复制: devices
+2026-03-28 16:13:15 -   已复制: cron
+2026-03-28 16:13:15 -   已复制: memory
+2026-03-28 16:13:15 -   已复制: memory/self-improving
+2026-03-28 16:13:15 -   已复制: workspace/memory
+2026-03-28 16:13:15 -   已复制: workspace/AGENTS.md
+2026-03-28 16:13:15 -   已复制: workspace/HEARTBEAT.md
+2026-03-28 16:13:15 -   已复制: workspace/MEMORY.md
+2026-03-28 16:13:15 -   已复制: workspace/TOOLS.md
+2026-03-28 16:13:15 - 正在创建 tar.gz 压缩包...
+2026-03-28 16:13:15 - 备份文件已创建: C:\Users\Administrator\openclaw-backups\2026-03-28T16-13-15.408Z-openclaw-config-backup.tar.gz (0.03 MB)
+2026-03-28 16:13:15 - 推送到 GitHub...
