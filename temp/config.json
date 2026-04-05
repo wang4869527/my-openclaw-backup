@@ -1,0 +1,23 @@
+{
+  "backup": {
+    "enabled": true,
+    "schedule": "daily",
+    "paths": [
+      "~/.openclaw/config.json",
+      "~/.openclaw/memory",
+      "~/.openclaw/AGENTS.md",
+      "~/.openclaw/TOOLS.md",
+      "~/.openclaw/MEMORY.md",
+      "~/.openclaw/HEARTBEAT.md"
+    ],
+    "exclude": [
+      "~/.openclaw/workspace/**/node_modules",
+      "~/.openclaw/workspace/**/.cache",
+      "~/.openclaw/workspace/**/dist",
+      "~/.openclaw/workspace/**/build",
+      "~/.openclaw/workspace/**/*.tar.gz",
+      "~/.openclaw/workspace/**/*.zip",
+      "~/.openclaw/workspace/**/logs"
+    ]
+  }
+}

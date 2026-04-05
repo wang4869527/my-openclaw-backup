@@ -1,0 +1,16 @@
+{
+    "lastChecks":  {
+                       "weather":  "2026-03-30T10:06:54Z",
+                       "memory":  "2026-03-30T10:06:54Z",
+                       "logs":  "2026-03-30T10:06:54Z",
+                       "security":  "2026-03-30T10:06:54Z",
+                       "proactive":  "2026-03-30T10:06:54Z",
+                       "calendar":  "2026-03-30T10:06:54Z",
+                       "email":  "2026-03-30T10:06:54Z"
+                   },
+    "nextCheck":  null,
+    "stats":  {
+                  "lastRun":  "2026-03-30T10:06:54Z",
+                  "totalRuns":  1
+              }
+}

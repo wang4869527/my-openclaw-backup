@@ -1,0 +1,12 @@
+sandbox:
+  enabled: true
+  writable: true           # 常见键名
+  writeable: true          # 英式拼写
+  workspace_mount_mode: "rw"
+  workspaceMountMode: "rw"
+  fs:
+    readonly: false
+  filesystem:
+    writable: true
+  workspace:
+    writable: true

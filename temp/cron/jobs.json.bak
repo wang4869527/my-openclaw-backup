@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "jobs": [
+    {
+      "id": "1e003573-7b49-486a-acaa-31cadf8c7634",
+      "name": "heartbeat-check",
+      "enabled": true,
+      "createdAtMs": 1774437358235,
+      "updatedAtMs": 1774437374390,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 1800000,
+        "anchorMs": 1774437358235
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.",
+        "model": "stepfun/step-3.5-flash:free"
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "last"
+      },
+      "state": {
+        "nextRunAtMs": 1774439158235,
+        "lastError": "AxiosError: Request failed with status code 400",
+        "lastRunAtMs": 1774437365113,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 9277,
+        "lastDeliveryStatus": "unknown",
+        "consecutiveErrors": 1
+      }
+    }
+  ]
+}
